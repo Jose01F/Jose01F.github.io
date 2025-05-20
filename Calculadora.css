@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Menu {
+    height: 50px;
+    padding: 10px 0 20px 0;
+    background-color: rgba(81, 107, 126, 0.815);
+    box-shadow: 2px 5px 10px rgba(27, 26, 26, 0.952);
+    border-bottom: 1px solid rgba(201, 194, 194, 0.692);
+}
+
+
+h2 {
+    margin: 15px 0;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 350px;
+    height: 400px;
+    background-color: rgba(35, 49, 59, 0.336);
+    border-radius: 15px;
+    box-shadow: 15px 10px 10px rgba(104, 81, 81, 0.644);
+    border: 1px solid black;
+}
+
+.form-date {
+    padding: 25px;
+}
+
+.form-date h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.camp {
+    margin-top: 15px;
+}
+
+.camp label {
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(53, 46, 46, 0.822); 
+    margin-left: 3px;
+}
+
+.camp input {
+    margin-top: 5px;
+    height: 30px;
+    width: 270px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 252, 251, 0.733);
+    box-shadow: 2px 1px 2px black;
+    font-size: 18px;
+}
+
+.camp select {
+    font-size: 18px;
+    margin-top: 5px;
+    height: 35px;
+    width: 270px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 252, 251, 0.733);
+    box-shadow: 2px 1px 2px black;
+}
+
+.buttoms {
+    text-align: center;
+    margin:20px;
+}
+
+.buttoms button {
+    margin-right: 30px;
+    width: 110px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    border-left: 4px solid white;
+}
+
+.calcular {
+    background-color: rgb(52, 138, 224);
+    font-size: 20px;
+    color: white;
+    
+}
+
+.calcular:hover{
+    background-color: rgb(52, 224, 52);
+    transform: scale(1.09);
+}
+
+.clear {
+    background-color: rgb(216, 74, 42);
+    font-size: 20px;
+    color: white;
+}
+
+.clear:hover{
+    background-color: rgb(125, 44, 16);
+    transform: scale(1.09);
+}
+
+.body-content {
+    display: flex;
+    justify-content:space-between;
+    margin: 25px 40px ;
+    padding-bottom: 30px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+.container-result1 {
+    width: 330px;
+    height: 360px;
+    background-image: url(How\ to\ find\ a\ lawyer\ you\ can\ afford.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 15px;
+    box-shadow: 15px 10px 10px rgba(104, 81, 81, 0.644);
+    padding: 20PX;
+    background-color: rgba(12, 10, 10, 0.623); 
+    background-blend-mode: multiply; 
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.result1 {
+    margin: 18px 0px;
+}
+
+.result1 label {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-bottom: 1px dashed rgb(20, 233, 56); 
+    margin-left: 3px;
+}
+
+.result1 input {
+    margin-top: 5px;
+    height: 30px;
+    width: 270px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 254, 254, 0.534);
+    border: 1px solid rgb(26, 189, 26); 
+    font-size: 20px;
+}
+
+.container-result2 {
+    width: 330px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: rgba(70, 63, 63, 0.479);
+    box-shadow: 15px 10px 10px rgba(104, 92, 92, 0.514);
+    border: 1px solid black;
+    padding: 20PX;
+    text-align: center;
+}
+
+.result2 {
+    margin: 18px 0px;
+}
+
+.result2 label {
+    font-size: 19px;
+    font-weight: 100;
+    color: rgba(3, 3, 3, 0.822);
+}
+#time_age:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#salarioDiario:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#DiasBono:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#MontoImponible:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#DDA:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#DTSM:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#DTSM:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#ISR:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#Infotep:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#TD:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#MontoBN:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+#MNBS:disabled {
+    background-color: rgba(255, 254, 254, 0.534);
+    color: black;
+}
+
+.result2 input {
+    margin: 5px;
+    height: 30px;
+    width: 230px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 254, 254, 0.534);
+    border: 1px solid rgb(224, 7, 7); 
+    font-size: 18px;
+}
+
+.container-finally {
+    display: flex;
+    justify-content: center;
+}
+
+.container-finally div {
+    margin-right: 100px;
+}
+
+.result4 {
+    margin: 18px 0px;
+}
+
+.result2 .des {
+    font-size: 22px;
+    font-weight: 100;
+    color: rgba(3, 3, 3, 0.822);
+}
+
+.result2 .des-input {
+    background-color: rgba(92, 87, 87, 0.103);
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.637);
+    font-size: 22px;
+}
+.result4 label {
+    font-size: 22px;
+    font-weight: 100;
+    
+}
+.result4 input {
+    margin: 5px 0px;
+    height: 30px;
+    width: 290px;
+    padding: 3px 15px;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: rgba(92, 87, 87, 0.103);
+    border: 1px solid rgb(43, 224, 7); 
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.637);
+}
+
+

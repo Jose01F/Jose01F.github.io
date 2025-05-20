@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Beneficios de Ley</title>
+    <link rel="stylesheet" href="Calculadora.css">
+</head>
+<body>
+    <nav class="Menu">
+        <h2>Calculo de Bonificaciones</h2>
+    </nav>
+
+    <div class="body-content">
+        <div class="container">
+            <form action="" id="miFormulario" class="form-date">
+                <h3>Ingresa tus datos</h3>
+                <div class="camp">
+                    <label for="" name="Ingreso" class="label">Fecha de Ingreso</label><br>
+                    <input type="date" name="Ingreso" id="FechaIngreso">
+                </div>
+                <div class="camp">
+                    <label for="" name="Salario" class="label">Salario Mensual</label><br>
+                    <input type="number" name="Salario" id="IngresoSalario" placeholder="Ingresa tu salario">
+                </div>
+                <div class="camp">
+                    <label for="" name="año" class="label">Año de Bonificación</label><br>
+                    <select name="año" id="AñoOption" >
+                        <option value=""  disabled selected>Año</option>
+                        <option value="2024" id="ingreso-option1">2024</option>
+                        <option value="2025" id="ingreso-option2">2025</option>
+                    </select>
+                </div>
+            </form>
+
+            <div class="buttoms">
+                <button class="calcular" onclick="calcularFormulario()">Calcular</button>
+                <button class="clear" onclick="limpiarFormulario()">Limpiar</button>
+            </div>
+        </div>
+
+        <div class="container-result1">
+            <form action="" id="miFormulario2">
+                <div class="result1">
+                    <label for="" name="age">Antiguedad para la bonificacion</label><br>
+                    <input type="text" name="age" id="time_age" disabled >
+                </div>
+                <div class="result1">
+                    <label for="" name="salarioDiario">Salaria Diario</label><br>
+                    <input type="text" name="salarioDiario" id="salarioDiario" disabled>
+                </div>
+                <div class="result1">
+                    <label for="" name="DiasBono">Dias Para Bonificacion</label><br>
+                    <input type="text" name="DiasBono" id="DiasBono" disabled>
+                </div>
+                <div class="result1">
+                    <label for="" name="MontoISR">Monto Imponible para ISR</label><br>
+                    <input type="text" name="MontoISR" id="MontoImponible" disabled>
+                </div>
+            </form>
+        </div>
+        <div class="container-result2">
+            <form class="form3" action="" id="miFormulario3">
+                <div class="result2">
+                    <label for="" name="DDA">Descuento Dependientes Adicionales TSS</label><br>
+                    <input type="text" name="DDA" id="DDA" disabled>
+                </div>
+                <div class="result2">
+                    <label for="" name="DTSM">Descuento de TSS del Salario Mensual</label><br>
+                    <input type="text" name="DTSM" id="DTSM" disabled>
+                </div>
+                <div class="result2">
+                    <label for="" name="ISR">ISR</label><br>
+                    <input type="text" name="ISR" id="ISR" disabled>
+                </div>
+                <div class="result2">
+                    <label for="" name="Infotep">Infotep</label><br>
+                    <input type="text" name="Infotep" id="Infotep" disabled>
+                </div>
+            </form>
+        </div>  
+    </div>
+
+    <div class="container-finally" id="miFormulario4" style="display: none;">
+        <div class="result2">
+            <label class="des" for="" name="TD">Total Descuento</label><br>
+            <input class="des-input" type="text" name="TD" id="TD" disabled>
+        </div>
+        <div class="result4">
+            <label for="" name="MontoBN">Monto Bonificacion</label><br>
+            <input type="text" name="MontoBN" id="MontoBN" disabled>
+        </div>
+        <div class="result4">
+            <label for="">Monto Neto de Bonificación y Salario</label><br>
+            <input type="text" id="MNBS" disabled>
+        </div>
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
